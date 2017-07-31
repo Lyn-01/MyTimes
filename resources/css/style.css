@@ -60,18 +60,21 @@ div {
 
 .content {
   display: flex;
-  position: absolute;
-  border: 1px solid black;
+  width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 }
 
 .column {
   display: flex;
-  flex-direction: column;
   margin-right: 32px;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .column.large {
   width: 630px;
+}
+
+.column.medium {
+  width: 300px;
 }
