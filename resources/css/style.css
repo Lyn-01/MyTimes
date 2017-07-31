@@ -65,17 +65,16 @@ div {
 }
 
 .column {
-  display: flex;
   margin-right: 32px;
   flex-direction: column;
 }
 
 .column.large {
+  display: flex;
   width: 630px;
-  flex-wrap: wrap;
 }
 
 .column.medium {
+  display: flex;
   width: 300px;
-  flex-wrap: wrap;
 }
