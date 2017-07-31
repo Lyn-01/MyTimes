@@ -1,3 +1,12 @@
+
+/* General */
+
+a {
+  color: black;
+}
+
+/* Header */
+
 header {
   display: flex;
   align-items: center;
@@ -29,24 +38,20 @@ header {
   color: MediumAquamarine;
 }
 
-header nav {
-  padding-right: 40px;
+.navigation {
+  margin-left: auto;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-}
-
-a {
-  color: black;
-}
-
-nav span {
+.navigation span {
  display: inline-block;
  padding: 20px 10px;
 }
+
+header nav {
+ padding-right: 40px;
+}
+
+/*Body*/
 
 body {
   margin: 0;
@@ -62,19 +67,27 @@ div {
   display: flex;
   width: 1232px;
   padding-top: 116px;
+
 }
 
-.column {
+.column.large {
+  display:flex;
+  width: 630px;
   margin-right: 32px;
   flex-direction: column;
 }
 
-.column.large {
-  display: flex;
-  width: 630px;
-}
-
 .column.medium {
   display: flex;
+  margin-right: 32px;
   width: 300px;
+  position: relative;
+  flex-direction: column;
+}
+
+.column.small {
+  display: flex;
+  margin-right: 32px;
+  width:240px;
+  flex-direction: column;
 }
