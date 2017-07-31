@@ -66,6 +66,7 @@ div {
 .content {
   display: flex;
   width: 1232px;
+  margin: 0 auto 78px auto;
   padding-top: 116px;
 
 }
@@ -90,4 +91,14 @@ div {
   margin-right: 32px;
   width:240px;
   flex-direction: column;
+}
+
+.image-content {
+  background-image: url("../images/img-story-main.png");
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  width: 629px;
+  height: 300px;
 }
