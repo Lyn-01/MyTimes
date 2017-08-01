@@ -33,7 +33,6 @@ header {
   display: flex;
   align-items: center;
   padding-left: 30px;
-  border: 1px solid black;
 }
 
 .logo img {
@@ -67,16 +66,11 @@ body {
 
 /*remove borders later on*/
 
-div {
-  border: 1px solid black;
-}
-
 .content {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
-
 }
 
 .column.large {
@@ -90,8 +84,17 @@ div {
   display: flex;
   margin-right: 32px;
   width: 300px;
-  position: relative;
   flex-direction: column;
+}
+
+.story.column.medium {
+  align-content: flex-start;
+}
+
+h2 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .column.small {
@@ -110,10 +113,6 @@ div {
   color: white;
   width: 629px;
   height: 300px;
-}
-
-.image-content span {
-  justify-content: center;
 }
 
 .fall-image-content {
@@ -147,4 +146,20 @@ div {
   color: white;
   height: 300px;
   text-align: center;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.text-content .column.large {
+  height: 250px;
 }
