@@ -64,8 +64,6 @@ body {
   margin: 0;
 }
 
-/*remove borders later on*/
-
 .content {
   display: flex;
   width: 1232px;
@@ -104,6 +102,22 @@ h2 {
   flex-direction: column;
 }
 
+.news-bites h4 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bite {
+  display: block;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+}
+
 .image-content {
   display: flex;
   background-image: url("../images/img-story-main.png");
@@ -124,6 +138,7 @@ h2 {
   color: white;
   height: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .camera-image-content {
@@ -135,6 +150,7 @@ h2 {
   color: white;
   height: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .cat-image-content {
@@ -146,6 +162,7 @@ h2 {
   color: white;
   height: 300px;
   text-align: center;
+  margin-top: 15px;
 }
 
 .story {
@@ -162,4 +179,39 @@ h2 {
 
 .text-content .column.large {
   height: 250px;
+}
+
+/*Footer*/
+
+footer {
+  display: flex;
+  background-color: MediumAquamarine;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+footer .title {
+  display: inline-block;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: 2px solid white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
 }
